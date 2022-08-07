@@ -1,0 +1,141 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+:root {
+  --dark-blue: #1D3557;
+  --light-blue: #457B9D;
+  --light: #F1FAEE;
+  --aqua: #A8DADC;
+  --white: whitesmoke;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+img {
+    width: 150px;
+}
+
+.hero-div {
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.heading-1 {
+    background-color: var(--dark-blue);
+    color: var(--light);
+    
+    width: 220px;
+    border-radius: 10px;
+    padding: 4px 7px;
+    margin: 0 auto 0;
+}
+
+.heading-2 {
+    background-color: var(--light-blue);
+    color: var(--light);
+    
+    width: 400px;
+    border-radius: 10px;
+    padding: 4px 7px;
+    margin: 15px auto 0;
+    text-shadow: 0 0 1px black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+}
+
+.activities {
+    padding: 59px 34px;
+    display: flex;
+    background-color: var(--light);
+    
+}
+
+.activity {
+    padding: 0 17px;
+}
+
+.activity > img {
+    border-radius: 50%;
+}
+
+.activity-name {
+    color: var(--dark-blue);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 22px;
+}
+
+.activity-description {
+    color: var(--dark-blue);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 17px;
+}
+
+.guide {
+    background-color: var(--white);
+    margin:0px;
+    padding: 50px;
+}
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+    color: var(--dark-blue);
+    background-color: var(--aqua);
+    border-radius: 10px;
+    box-shadow: 0 4px 0 var(--dark-blue);
+    display: flex;
+}
+
+.card-rows {
+    margin: 20px;
+}
+
+.card-row-1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 60px;
+}
+
+.card-row-2{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+
+.card-row-3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+
+.guide-img {
+    width: 220px;
+    padding: 20px 0 20px 20px;
+    border-radius: 10%;
+}
